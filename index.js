@@ -21,13 +21,11 @@ console.log(numbers);
 // 3.2
 
 for( let i = 0; i < numbers.length; i++) {
-   return numbers[i] ** 2;
+   console.log(numbers[i] ** 2);
 }
 
-console.log(numbers)
 
 // 3.3
 
-for(let i = 0; i < numbers.length; i++) {
-    
-}
+const sortNumders = numbers.sort((a, b) => b - a);
+console.log(sortNumders)
